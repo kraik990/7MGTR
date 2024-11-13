@@ -18,12 +18,11 @@ body {
     padding: 0 20px;
 }
 
-/* Header Styling */
 header {
     position: fixed;
     width: 100%;
     top: 0;
-    background-color: #4a90e2;
+    background-color: #7389AE;
     color: #fff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     z-index: 1000;
