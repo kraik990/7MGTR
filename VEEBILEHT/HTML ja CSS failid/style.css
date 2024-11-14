@@ -27,12 +27,6 @@ header {
     z-index: 1000;
 }
 
-header .header-logo {
-    max-height: 80px;
-    margin-right: 20px;   
-}
-
-
 header .container {
     display: flex;
     align-items: center;
@@ -43,7 +37,7 @@ header .container {
 
 header h1 {
     font-size: 1.8rem;
-    margin: 0;
+    margin-right: 5vw;
     letter-spacing: 1.5px; 
     color: #fff; 
     text-transform: uppercase;
@@ -64,7 +58,7 @@ nav {
     font: bold 1.3rem sans-serif;
     text-transform: uppercase;
     color: #E0E0E2;
-    margin-left: 320px;
+    margin-left: 5vw;
 }
 
 nav a {
