@@ -21,7 +21,7 @@ header {
     position: fixed;
     width: 100%;
     top: 0;
-    background-color: #416788;
+    background-color: #101D42;
     color: #fff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     z-index: 1000;
@@ -93,10 +93,10 @@ nav a:hover:before {
 
 .vapp {
     position: absolute;
-    top: 160px; /* Kohanda seda väärtust, et vapp asetseks täpselt h2 kohal */
+    top: 140px;
     left: 50%;
-    transform: translateX(-50%); /* Keskendab vapi horisontaalselt */
-    z-index: 10; /* Tõstab vapi h2 elemendi kohale */
+    transform: translateX(-50%); 
+    z-index: 10;
 }
 
 
@@ -140,7 +140,7 @@ main {
 main h2 {
     padding-top: 80px;
     font-size: 2.5rem;
-    color: #416788;
+    color: #101D42;
     margin-bottom: 10px;}
 
 main p {
