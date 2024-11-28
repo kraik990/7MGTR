@@ -25,7 +25,7 @@ header {
     color: #fff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     z-index: 1000;
-    border-bottom: 5px solid #81D2C7; /* Adding a border similar to the footer */
+    border-bottom: 5px solid #81D2C7;
 }
 
 header .container {
@@ -217,6 +217,7 @@ footer {
 .footer-email-form label {
     display: block;
     text-align: left;
+    font-style: arial;
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 8px;
@@ -236,6 +237,7 @@ footer {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .footer-email-form button {
