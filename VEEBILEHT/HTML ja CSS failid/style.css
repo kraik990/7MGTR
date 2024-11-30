@@ -253,6 +253,19 @@ footer {
     background-color: #5FBBAE;
 }
 
+/* Javaskriti osa */
+.fade-in-up-on-scroll {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 2.5s ease-out, transform 2.5s ease-out;
+}
+
+/* Javaksripti osa */
+.fade-in-up {
+    opacity: 1;
+    transform: translateY(0);
+}
+
     
 @media (max-width: 768px) {
     header .container {
