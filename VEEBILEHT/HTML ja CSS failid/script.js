@@ -1,10 +1,8 @@
-/*
-Fail: script.js
-Autor: Ryan (ryfarlane.com)
-Kuupäev: 30.08.2022
-Kirjeldus: See skript tekitab tekstile fade-in animatsiooni ja tuvastab kasutaja kerimist,
-tänu millele ta ajastab fade-in-i.
-*/
+// Fail: script.js //
+// Autor: Ryan https://ryfarlane.com/article/fade-in-on-scroll-vanilla-javascript-css
+// Kuupäev: 30.08.2022 //
+// Kirjeldus: See skript tekitab tekstile fade-in animatsiooni ja tuvastab kasutaja kerimist,
+// tänu millele ta ajastab fade-in-i.
 
 // Valime kõik elemendid, millele on antud klass 'fade-in-up-on-scroll' //
 const elementsToFadeInUpOnScroll = document.querySelectorAll(".fade-in-up-on-scroll");

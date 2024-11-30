@@ -1,5 +1,5 @@
 // Fail: headeripaigutus.js
-// Autor: ChatGPT (OpenAI) - Kood koostatud kasutaja poolt
+// Autor: ChatGPT (OpenAI) 
 // Kuupäev: 24.11.2024
 // Kirjeldus: See skript määrab sektsioonide 'main' ja 'header' vahele tühja ruumi,
 // et vältida nende kattumist. See muudatus toimib igal lehel, kus kasutatakse seda skripti.
