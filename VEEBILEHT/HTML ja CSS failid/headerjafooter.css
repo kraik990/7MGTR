@@ -9,6 +9,7 @@ body {
     line-height: 1.6;
     color: black;
     padding-top: 98px;
+    background-color: white;
 }
 
 .container {
@@ -35,6 +36,7 @@ header .container {
     padding: 30px;
     white-space: nowrap;
 }
+
 
 .pealeht {
     font-size: 1.8rem;
@@ -93,101 +95,94 @@ nav a:hover:before {
     transition: transform 0.3s;
 }
 
-.vapp {
-    position: absolute;
-    top: 140px;
-    left: 50%;
-    transform: translateX(-50%); 
-    z-index: 10;
-}
-
-.vapp img {
-    width: 120px;
-    height: 170px;
-}
-
-.interbackground {
-    position: relative;
-    background-image: url(../PILDID/koolipilt.jpg);
-    height: 100vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 20px;
-    box-shadow: inset 0 -50px 50px rgba(0, 0, 0, 0.5);
-}
-
-.interbackground h2 {
-    font-size: 2.5rem;
-    color: white;
-    text-align: center;
-    margin-top: 330px;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 2);
-}
-
-.interbackground p {
-    font-size: 1.2rem;
-    margin-top: 30px;
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    color: white;
-    text-shadow: 2px 2px 5px rgba(1, 0, 0, 2);
-}
-
-main {
-    margin: 40px 0 80px;
-}
-
-    
-
-main h2 {
-    font-size: 2.5rem;
-    color: #101D42;
-    margin-bottom: 10px;
-    border-bottom: 5px solid #81D2C7;
-}
-
-main p {
+footer {
+    background-color: #101D42;
+    color: #f8f9fa;
+    padding: 60px 20px;
     font-size: 1rem;
-    margin-bottom: 25px;
-    line-height: 1.6;
+    text-align: center;
+    border-top: 5px solid #81D2C7;
+    box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin-left: 20vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer-info h3 {
+    color: #81D2C7;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.footer-info p {
+    margin: 5px 0;
+    font-size: 0.9rem;
     text-align: justify;
 }
 
-.space {
-    height: 80px;
+.footer-links a:hover {
+    color: #f8f9fa;
+    text-decoration: underline;
 }
 
-/* Javaskriti osa */
-.fade-in-up-on-scroll {
-    opacity: 0;
-    transform: translateY(50px);
-    transition: opacity 2.5s ease-out, transform 2.5s ease-out;
+.footer-extra {
+    font-size: 1rem;
+    font-style: italic;
+    color: #81D2C7;
+    animation: fadeIn 2s ease-in-out;
 }
 
-/* Javaksripti osa */
-.fade-in-up {
-    opacity: 1;
-    transform: translateY(0);
+.footer-email-form {
+    flex: 1;
+    max-width: 400px;
+    margin-right: 5vw;
 }
 
-    
-@media (max-width: 768px) {
-    header .container {
-        flex-direction: column;
-    }
+.footer-email-form label {
+    display: block;
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #81D2C7;
+}
 
-    .hero h2 {
-        font-size: 2rem;
-    }
+.footer-email-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
-    .footer-container {
-        flex-direction: column;
-    }
-    .footer-links a {
-        margin: 5px 0;
-    }
+.footer-email-form input,
+.footer-email-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-email-form button {
+    padding: 10px 15px;
+    background-color: #81D2C7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.footer-email-form button:hover {
+    background-color: #5FBBAE;
 }
