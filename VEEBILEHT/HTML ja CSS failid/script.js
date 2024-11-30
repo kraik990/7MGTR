@@ -1,3 +1,4 @@
+<html lang="et"></html>
 // Fail: script.js //
 // Autor: Ryan (ryfarlane.com) //
 // Kuupäev: 30.08.2022 //
