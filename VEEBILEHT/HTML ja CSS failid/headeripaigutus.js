@@ -1,3 +1,4 @@
+// Fail: headeripaigutus.js
 // Autor: ChatGPT (OpenAI) - Kood koostatud kasutaja poolt
 // Kuupäev: 24.11.2024
 // Kirjeldus: See skript määrab sektsioonide 'main' ja 'header' vahele tühja ruumi,
