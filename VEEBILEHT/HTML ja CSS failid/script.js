@@ -1,4 +1,3 @@
-// Fail: scipt.js
 // Autor: Ryan (ryfarlane.com)
 // Kuupäev: 30.08.2022
 // Kirjeldus: See skript tekitab tekstile fade in animatsiooni ja tuvastab kasutaja kerimist,
