@@ -71,10 +71,6 @@ main h3 {
   
       
 @media (max-width: 768px) {
-    header .container {
-        flex-direction: column;
-    }
-
     .hero h2 {
         font-size: 2rem;
     }
